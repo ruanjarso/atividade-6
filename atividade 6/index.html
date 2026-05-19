@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Portfólio de Projetos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Ruan Jarso</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+
+        <img 
+            src="foto-perfil.JPG" 
+            alt="Foto de perfil"
+        >
+
+        <p>
+            Sou desenvolvedor em formação, apaixonado por tecnologia,
+            desenvolvimento web e ensino de programação. Tenho experiência
+            com HTML, CSS, JavaScript, Vue.js, Nuxt e APIs.
+        </p>
+    </section>
+
+    <section id="projetos">
+        <h2>Meus Projetos</h2>
+
+        <article>
+            <h3>Sistema de Ensino em Portugol</h3>
+
+            <p>
+                Plataforma voltada para o ensino de lógica de programação
+                utilizando Portugol para alunos iniciantes.
+            </p>
+
+            <a href="https://github.com/ruanjarso" target="_blank">
+                Ver no GitHub
+            </a>
+        </article>
+
+        <article>
+            <h3>API com FastAPI</h3>
+
+            <p>
+                API desenvolvida para interpretar e executar algoritmos
+                escritos em Portugol através de uma aplicação web.
+            </p>
+
+            <a href="https://github.com/ruanjarso" target="_blank">
+                Ver no GitHub
+            </a>
+        </article>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <br><br>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <br><br>
+
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea 
+                id="mensagem" 
+                name="mensagem" 
+                rows="5" 
+                cols="30">
+            </textarea>
+
+            <br><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>2026 - Desenvolvido por Ruan Jarso</p>
+    </footer>
+
+</body>
+</html>
